@@ -54,5 +54,5 @@ endfunction
 
 nnoremap <silent> <Plug>BumpImport   :call <SID>BumpImport()<CR>
 if g:bump_imports_use_default_keymappings
-  execute 'nmap <Leader>oo <Plug>BumpImport'
+  execute 'nmap <Leader>u <Plug>BumpImport'
 endif
